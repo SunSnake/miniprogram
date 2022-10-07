@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/former/former",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom":true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "设备管理"
+      },
+      {
+        "pagePath": "pages/former/former",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "设备管理"
+      }
+    ]
+  }
+}
